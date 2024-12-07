@@ -1,8 +1,8 @@
 import React from 'react';
 import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
-import default_bg from '@/assets/img/bg/breadcrumb_bg01.jpg';
-import default_brd_img from '@/assets/img/others/breadcrumb_img01.png';
+import default_bg from '@/assets/img/bg/space.jpg';
+import phantasmaImg from '@/assets/img/logo/chapterLogo2.png';
 
 // props type
 type IProps = {
@@ -11,7 +11,7 @@ type IProps = {
     title:string;
     subtitle:string;
 }
-const BreadcrumbArea = ({bg=default_bg,brd_img=default_brd_img,title,subtitle}:IProps) => {
+const BreadcrumbArea = ({bg=default_bg,brd_img=phantasmaImg,title,subtitle}:IProps) => {
   return (
     <section className="breadcrumb-area" style={{backgroundImage:`url(${bg.src})`}}>
     <div className="container">

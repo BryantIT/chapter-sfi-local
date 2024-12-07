@@ -49,7 +49,7 @@ export default function HeaderFour() {
                                         <ul className="list-wrap">
                                             <li className="header-btn">
                                                 <Link href="/login" className="tg-btn-4">
-                                                    <span>Get A Quote</span>
+                                                    <span>Join STARFLEET!</span>
                                                 </Link>
                                             </li>
                                             <li onClick={() => handleOpenOffCanvas('/assets/audio/click.wav')} className="side-toggle-icon">
