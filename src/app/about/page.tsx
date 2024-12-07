@@ -2,7 +2,7 @@ import Wrapper from "@/layout/wrapper";
 import Header from "@/layout/header/header-four";
 import Footer from "@/layout/footer/footer";
 import BreadcrumbArea from "../components/breadcrumb/breadcrumb-area";
-import AboutAreaThree from "../components/about-area/about-area-3";
+import AboutArea from "../components/about-area/about-area-2";
 import ServicesArea from "../components/services/services-area";
 import TeamArea from "../components/team/team-area";
 
@@ -20,7 +20,7 @@ export default function AboutPage() {
         {/* breadcrumb area end */}
 
         {/* about area start */}
-        <AboutAreaThree/>
+        <AboutArea/>
         {/* about area end */}
 
         {/* Services area start*/}

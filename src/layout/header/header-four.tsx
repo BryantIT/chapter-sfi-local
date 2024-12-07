@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from '@/assets/img/logo/logo.png';
+import logo from '@/assets/img/logo/chapterLogo2.png';
 import HeaderNavMenus from "./header-nav-menus";
 import StickyWrapper from "./sticky-wrapper";
 import OffCanvas from "@/app/components/common/off-canvas";
